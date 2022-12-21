@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ygtg4fF7a8XcFkcsfrzbVJXuGqHCsSjaUTdqfLBeX0o=",
+  "Hash": "2mDml61DrWH8USAnic6YtT1bo1xFJVdjMDZLBJkW/kQ=",
   "Source": "Pustok",
   "BasePath": "_content/Pustok",
   "Mode": "Default",
@@ -1477,6 +1477,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\plugins.js"
+    },
+    {
+      "Identity": "C:\\Users\\Hp\\Desktop\\CodeAcadem\\BackEnd\\Tasks\\22. Task 21-12-22 Pustok v14\\PustokApp\\Pustok\\wwwroot\\assets\\js\\signalr.js",
+      "SourceId": "Pustok",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hp\\Desktop\\CodeAcadem\\BackEnd\\Tasks\\22. Task 21-12-22 Pustok v14\\PustokApp\\Pustok\\wwwroot\\",
+      "BasePath": "_content/Pustok",
+      "RelativePath": "assets/js/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\signalr.js"
+    },
+    {
+      "Identity": "C:\\Users\\Hp\\Desktop\\CodeAcadem\\BackEnd\\Tasks\\22. Task 21-12-22 Pustok v14\\PustokApp\\Pustok\\wwwroot\\assets\\js\\signalr.min.js",
+      "SourceId": "Pustok",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hp\\Desktop\\CodeAcadem\\BackEnd\\Tasks\\22. Task 21-12-22 Pustok v14\\PustokApp\\Pustok\\wwwroot\\",
+      "BasePath": "_content/Pustok",
+      "RelativePath": "assets/js/signalr.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\signalr.min.js"
     },
     {
       "Identity": "C:\\Users\\Hp\\Desktop\\CodeAcadem\\BackEnd\\Tasks\\22. Task 21-12-22 Pustok v14\\PustokApp\\Pustok\\wwwroot\\Uploads\\Books\\0251759b-c2d1-4c5a-b536-7a24cea0b324h6-img-4.jpg",

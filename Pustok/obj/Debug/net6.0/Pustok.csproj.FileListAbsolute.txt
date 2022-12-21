@@ -2150,3 +2150,4 @@ C:\Users\Hp\Desktop\CodeAcadem\BackEnd\Tasks\22. Task 21-12-22 Pustok v14\Pustok
 C:\Users\Hp\Desktop\CodeAcadem\BackEnd\Tasks\22. Task 21-12-22 Pustok v14\PustokApp\Pustok\obj\Debug\net6.0\Pustok.pdb
 C:\Users\Hp\Desktop\CodeAcadem\BackEnd\Tasks\22. Task 21-12-22 Pustok v14\PustokApp\Pustok\obj\Debug\net6.0\Pustok.genruntimeconfig.cache
 C:\Users\Hp\Desktop\CodeAcadem\BackEnd\Tasks\22. Task 21-12-22 Pustok v14\PustokApp\Pustok\obj\Debug\net6.0\ref\Pustok.dll
+C:\Users\Hp\Desktop\CodeAcadem\BackEnd\Tasks\22. Task 21-12-22 Pustok v14\PustokApp\Pustok\bin\Debug\net6.0\libman.json

@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Pustok.DAL;
+using Pustok.Hubs;
 using Pustok.Models;
 using Pustok.Sevices;
 using System;
@@ -22,7 +23,7 @@ builder.Services.AddDbContext<PustokDbContext>(opt =>
 });
 builder.Services.AddScoped<LayoutService>();
 
-
+builder.Services.AddSignalR();
 
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
@@ -79,5 +80,6 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapHub<ChatHub>("/myHub");
 
 app.Run();
