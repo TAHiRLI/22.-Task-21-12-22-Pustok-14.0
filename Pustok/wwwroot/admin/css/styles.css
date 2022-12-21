@@ -11705,3 +11705,16 @@ body {
     right: 0px;
     cursor: pointer;
 }
+
+.status-dot{
+    display: inline-block;
+    width: 8px;
+    height:8px;
+    border-radius:50%;
+}
+.status-offline{
+    background-color:gray;
+}
+.status-online{
+    background-color:forestgreen;
+}
