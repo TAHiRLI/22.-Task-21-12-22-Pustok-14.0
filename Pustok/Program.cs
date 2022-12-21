@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Org.BouncyCastle.Crypto.Tls;
 using Pustok.DAL;
 using Pustok.Hubs;
 using Pustok.Models;
@@ -24,7 +26,6 @@ builder.Services.AddDbContext<PustokDbContext>(opt =>
 builder.Services.AddScoped<LayoutService>();
 
 builder.Services.AddSignalR();
-
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 {

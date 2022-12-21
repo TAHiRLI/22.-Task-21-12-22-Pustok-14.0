@@ -812,6 +812,44 @@
         </script>
 
 
+        <script src="~/assets/js/signalr.min.js"></script>
+
+        <script>
+
+            let connection = new signalR.HubConnectionBuilder().withUrl("/myHub").build();
+
+            connection.start().then(function () {
+                console.log(connection)
+                console.log(connection.connectionId)
+
+            }).catch(function (err) {
+                return console.error(err.toString());
+            });
+            
+            //document.getElementById("btnSend").addEventListener("click", () => {
+
+            //    connection.invoke("SendMessage", "bu da menim mesajim olsun");
+            //})
+
+            connection.on("OrderStatus", (bool)=>{
+                console.log("salisdi")
+                if(bool){
+                     Toast.fire({
+                    icon: 'success', // error, info, warning
+                    title:  "Your order just accepted"
+                })
+                }
+                else{
+                     Toast.fire({
+                    icon: 'error', // error, info, warning
+                    title:  "Your order was rejected"
+                })
+                }
+            })
+
+        </script>
+
+
 
         @RenderSection("Scripts",required: false)
 
