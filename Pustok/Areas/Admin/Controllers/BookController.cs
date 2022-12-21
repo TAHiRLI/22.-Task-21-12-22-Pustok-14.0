@@ -208,6 +208,7 @@ namespace Pustok.Areas.Admin.Controllers
             existBook.CostPrice = book.CostPrice;
             existBook.IsNew = book.IsNew;
             existBook.IsSpecial = book.IsSpecial;
+            existBook.Description = book.Description;
             existBook.StockStatus = book.StockStatus;
             existBook.ModifiedAt = DateTime.UtcNow.AddHours(4);
 
